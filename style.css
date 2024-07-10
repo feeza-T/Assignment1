@@ -183,9 +183,10 @@ opacity: 0.7;
 
 .skills{
 width: 1140px;
-height: 463px;
+height: 500px;
 border:2px solid black;
-margin:0 auto;
+margin: 32px auto; 
+padding: 5px 97px 80px 97px;
 }
 .skills-container{
     display: flex;
@@ -198,3 +199,60 @@ margin:0 auto;
 .skill-description{
     opacity: 0.7;
 }
+
+.Support-page{
+    width: 1140px;
+    height: 314px;
+    margin: 32px auto; 
+  padding: 5px 97px 80px 97px;
+    background-color: rgba(0,0,0,0.2);
+    background-image: url("assets/handshake.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+.support-text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    text-align: center;
+
+}
+.support-text h2,p{
+    color:white;
+}
+
+.suggestion-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#Suggest {
+    width: 548px;
+    height: 57px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 19px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin-right: 16px;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 19px 20px;
+    color: black;
+    border: none;
+    border-radius: 8px;
+}
+
