@@ -256,3 +256,18 @@ padding: 5px 97px 80px 97px;
     border-radius: 8px;
 }
 
+.footer{
+  width: 1140px;
+   height: 100px; 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 32px 150px 32px 150px;
+}
+.footer-left-section{
+    color:black;
+}
+.footer-right-section img {
+    width: 30px;
+    height: 30px;
+}
