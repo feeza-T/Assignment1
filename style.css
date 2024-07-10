@@ -177,12 +177,24 @@ opacity: 0.7;
   height: 777px;
   border:2px solid black;
   margin: 32px auto; 
-  padding: 5px 97px 80px 97px
+  padding: 5px 97px 80px 97px;
 }
 
-.current-target{
-    width: 1140px;
+
+.skills{
+width: 1140px;
 height: 463px;
 border:2px solid black;
 margin:0 auto;
+}
+.skills-container{
+    display: flex;
+    gap:24px;
+}
+.skill{
+   padding:30px;
+   border-radius: 16px;
+}
+.skill-description{
+    opacity: 0.7;
 }
