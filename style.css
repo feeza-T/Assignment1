@@ -14,6 +14,7 @@ body {
 .banner-page {
     width: 1440px;
     height: 652px;
+    margin:0 auto;
     border-bottom: 2px dashed black;
     border-top: 2px dashed black;
     top: 131px;
@@ -22,29 +23,23 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-
-   
 }
 
 .banner-section {
-
     width: 998px;
     height: 582px;
-    left: 221px;
-    right: 221px;
-    top: 157px;
+    margin:0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
+    padding: 30px;
 }
 
 .developer-image { 
     width: 173.03px;
     height: 228.9px;
-    top: 157px;
-    padding: 0px 10px 10px 10px;
+    top: 500px;
+    padding: 50pxpx 10px 10px 10px;
 }
 
 .developer-image img {
@@ -76,6 +71,7 @@ body {
     text-align: center;
     margin: 24px 0px;
     opacity: 0.7;
+    padding: auto;
 }
 
 .button {
@@ -91,13 +87,14 @@ body {
     text-align: center;
     font-size: 16px;
     margin-top: 20px;
-    margin: 0 auto; /* Center the button */
+    margin: 0 auto; 
+
 }
 .Second-page {
     
     width: 1140px;
     height: 1395px;
-    border:2px solid black;
+   
      margin: 32px auto; 
     padding: 5px 97px 80px 97px
 }
@@ -139,6 +136,7 @@ body {
 .firstleft-side, .firstright-side {
     width: 70%; 
     height: 336px;
+    
 }
 .firstleft-side p{
     color: #0D1321;
@@ -152,6 +150,7 @@ body {
     width:70%;
     height: 336px;
   padding-left: 0px;
+  
 }
 .secondright-side p{
     color: #0D1321;
@@ -179,7 +178,7 @@ opacity: 0.7;
 .my-inspiration-container{
   width: 1140px;
   height: 777px;
-  border:2px solid black;
+
   margin: 32px auto; 
   padding: 5px 97px 80px 97px;
 }
@@ -188,7 +187,7 @@ opacity: 0.7;
 .skills{
 width: 1140px;
 height: 500px;
-border:2px solid black;
+
 margin: 32px auto; 
 padding: 5px 97px 80px 97px;
 }
